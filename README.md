@@ -1,6 +1,6 @@
 # DiaBuddy UX/UI Graduation Project
 
-![DiaBuddy Cover](https://via.placeholder.com/1200x600/023728/FFFFFF?text=DiaBuddy+UX/UI+Case+Study) <!-- Replace with actual cover image URL from repo -->
+![DiaBuddy Cover](Cover.png) <!-- Replace with actual cover image URL from repo -->
 
 ## Overview
 
