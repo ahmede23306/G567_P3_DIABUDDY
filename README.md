@@ -1,155 +1,110 @@
-# DiaBuddy UX/UI Graduation Project
+# Diabuddy
 
-![DiaBuddy Cover](Cover.png) <!-- Replace with actual cover image URL from repo -->
+![Diabuddy Cover](1.png)
+
+A comprehensive mobile application for diabetes management, awareness, and community support. Diabuddy empowers users with Type 1 or Type 2 diabetes, their families, and the general public through intuitive tracking, educational resources, and social features. Developed as part of a UX research project, it addresses real-world challenges identified from patient experiences and surveys.
+
+**Current Version:** 1.0 (Post-Research Phase)  
+**Platform:** iOS & Android (Planned)  
+**Date:** November 11, 2025  
+**License:** MIT License
+
+## Table of Contents
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Project Solution](#project-solution)
+- [Project Objectives](#project-objectives)
+- [Key Features](#key-features)
+- [Survey Insights](#survey-insights)
+- [Competitive Analysis](#competitive-analysis)
+- [Tech Solutions](#tech-solutions)
+- [Team](#team)
+- [Testing](#testing)
+- [License](#license)
 
 ## Overview
+Diabuddy is a mobile app designed for diabetes management, awareness, and community support, targeting diabetics (22 survey respondents), their families/friends (~70), and the general public (~17). Built from a bilingual survey of 109 participants (55% female, mostly urban, aged 10–60+), patient research, and analysis of apps like mySugr and Glucose Buddy, it integrates tracking, education, and social features using CGM, smart reminders, and AI nutrition tools. As of November 2025, it’s in the post-research phase, planning a user-friendly interface with future bilingual (English/Arabic) support to improve health outcomes and reduce stigma.
 
-DiaBuddy is a bilingual (English/Arabic) mobile application designed for diabetes management, awareness, and community support. It targets diabetics, their families/friends, and the general public, built from a survey of 109 participants, patient research, and analysis of apps like mySugr. Key features include CGM-integrated glucose tracking, AI-powered nutrition recommendations, smart reminders, educational videos, and an in-app community to improve health outcomes and reduce stigma.
+## Problem Statement
+Diabetes patients struggle with meal diversity and adherence (70% report issues), need continuous blood glucose monitoring, and face challenges tracking diet, calories, and nutrients manually. Emotional and social support is lacking (65% note stress/isolation), with limited health information access (70% of non-patients unaware of Type 1 vs. Type 2), poor doctor communication, and risks of forgetting meds or sudden sugar/pressure spikes, worsened by family history (65%) and variable tech comfort (7.2/10 average).
 
-As of September 2025, the project is in the post-research phase, focusing on user-friendly interface design. This repository contains the full UX/UI deliverables: research artifacts, wireframes, high-fidelity mockups, interactive prototypes (Figma), design system, and presentation materials.
+## Project Solution
+Diabuddy offers a smart system for daily meal recommendations tailored to patient needs, glucose data input with CGM integration, and automated calorie/nutrient tracking. It includes an in-app community for sharing and peer support, educational videos from doctors/nutritionists, periodic doctor check-ins with dashboards, and smart notifications for meds and emergencies, enhanced by CGM, smart pens, and cuffless BP monitors in a user-friendly interface with planned bilingual support.
 
-**Project Status:** Ongoing (Review & Testing phase as of November 10, 2025).
+## Project Objectives
+Diabuddy aims to enable easy tracking of blood sugar, calories, and nutrients with shareable reports, foster a supportive app community for motivation and knowledge exchange, and boost health awareness via updated educational content. It also seeks to improve safety with intelligent alerts for sugar levels and meds, targeting 80% confidence in management and fewer complications.
 
-### Key Objectives
-- Seamless tracking of glucose, meals, and medications.
-- Peer support community to combat isolation (65% of users report stress).
-- Educational resources to address knowledge gaps (70% unaware of Type 1 vs. Type 2).
-- Smart alerts for emergencies and adherence (70% struggle with meal diversity).
+## Key Features
+Based on research and survey feedback, Diabuddy includes:
 
-## Features
-- **Tracking & Monitoring:** Glucose logging with CGM sync, calorie/nutrient auto-tracking, dashboards for trends.
-- **Personalization:** AI meal recommendations, customizable reminders.
-- **Community:** In-app forums for sharing experiences.
-- **Education:** Videos from doctors/nutritionists, bilingual content.
-- **Accessibility:** WCAG 2.1 compliant, color-blind friendly design.
-- **Bilingual Support:** English/Arabic interface.
+### 1. Awareness & Education
+- Tips about diabetes, its causes, and how to act in emergencies.
+- Raising awareness about symptoms and related conditions (obesity, low focus, etc.).
+- Explaining normal sugar level ranges.
+- Educating patients and families about the illness and its physical/psychological effects.
+- Content to guide family and friends on how to support a patient.
+- Daily articles/tips + motivational quotes.
+- Smart chatbot to answer health questions & symptoms.
 
-## Design System
-The DiaBuddy Design System ensures consistency across all UI elements. It's documented in [DiaBuddy Design System - Edited.pdf](https://github.com/pentaRae/DiaBuddy/blob/main/docs/DiaBuddy%20Design%20System%20-%20Edited.pdf) and implemented in Figma.
+### 2. Emergencies & Quick Support
+- Emergency button to call ambulance + share location.
+- Alerts for hypo/hyperglycemia + first aid instructions.
+- Guidance for coma or sudden sugar drop.
 
-### Design Philosophy
-- **Empathetic & Human:** Soft shadows, rounded corners, gentle animations to reduce cognitive load.
-- **Clarity & Simplicity:** Single-purpose cards/inputs; no clutter.
-- **Consistency:** Identical patterns for tracking, notifications, social features.
-- **Accessibility:** Color-blind palette, scalable fonts, WCAG 2.1 AA contrast.
-- **Trust & Motivation:** Micro-interactions (e.g., glucose logging feedback).
+Additional planned features:
+- Blood sugar logging and estimated A1C calculation.
+- Mood/stress tracker for mental health.
+- Carb/meal tracking with healthy recipes.
+- Family/caregiver sharing and doctor reports.
+- Integration with wearables (e.g., CGM, smart insulin pens).
 
-### Color System
-#### Primary Colors
-| Name     | Hex      | Usage                          |
-|----------|----------|--------------------------------|
-| Green700 | #023728 | Buttons, nav bar, active icons |
-| Green500 | #59B35B | Highlights, success, charts    |
-| Green300 | #8BD88C | Hover, card backgrounds, tags  |
-| Green100 | #D5F2D6 | Info cards, secondary buttons  |
+## Survey Insights
+The bilingual survey of 109 respondents provided key data to inform Diabuddy's design:
 
-*Gradient for headers:* `linear-gradient(90deg, #023728, #59B35B)`.
+- The survey reveals a predominantly young demographic (40% aged 21-30), with 55% female and 70% urban dwellers, indicating potential for high app adoption among tech-savvy urban youth.
+- A significant 65% reported a family history of diabetes, aligning with research on genetic factors in Type 2 diabetes, emphasizing the need for preventive education features.
+- Tech comfort averaged 7.2/10, with 60% rating high (8-10), suggesting the app's user-friendly interface can accommodate varying user skills while integrating advanced tools like CGM.
+- Among the 22 diabetic respondents, 70% struggled with diet adherence and 65% reported emotional stress, highlighting the value of features like meal recommendations and mood trackers seen in competitors like mySugr.
+- 80% of diabetics desired reminders for meds and sugar checks, supporting the inclusion of smart notifications and emergency alerts as outlined in DiaFeatures.
+- For ~70 respondents knowing someone with diabetes, 55% noted stigma and emotional burdens, underscoring the importance of in-app communities for peer support and knowledge sharing.
+- Awareness gaps were evident in ~17 general respondents, with 70% unaware of Type 1 vs. Type 2 differences, reinforcing the need for educational content on causes, symptoms, and effects as in the Diabetes Research document.
+- Lifestyle insights show many respondents exercise rarely (common response), smoke minimally (mostly no), and have somewhat healthy eating habits, but frequent symptoms like fatigue (sometimes/often), pointing to opportunities for activity tracking and prevention tips.
+- Open-ended suggestions from diabetics focused on blood sugar estimation without devices, personalized diets, and insulin accessibility, which can inform AI-driven calculators and integrations with tech solutions like smart insulin pens.
+- Overall, the data indicates strong demand for a holistic app combining tracking (e.g., glucose logging as in Glucose Buddy), education, and support, aiming to boost confidence in management (average 6/10 currently) and reduce health impacts on daily life (reported as somewhat/a lot by many).
 
-#### Neutral Colors
-| Name    | Hex      | Usage                          |
-|---------|----------|--------------------------------|
-| White   | #FFFFFF | Default backgrounds, forms     |
-| Gray100 | #F3F4F6 | Cards, containers              |
-| Gray200 | #E5E7EB | Disabled buttons/inputs        |
-| Gray300 | #D1D5DB | Borders, dividers              |
-| Gray500 | #6B7280 | Secondary text/icons           |
-| Gray900 | #111827 | Primary text, dark mode        |
+## Competitive Analysis
+| Factor / App          | mySugr                  | Glucose Buddy           | Gluroo                  | Diabetes:M              | Health2Sync             | Undermyfork             |
+|-----------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| **Glucose Logging**  | ✅ Manual logging      | ✅ Manual logging      | ✅ Manual logging      | ✅ Manual logging + import from glucometers/pumps | ✅ Manual + Bluetooth sync | ✅ Auto-sync from Dexcom + Manual |
+| **Insulin Calculator** | ✅ Bolus calculator   | ❌                     | ✅ Insulin tracking    | ✅ Bolus Advisor (normal & extended boluses) | ❌                     | ❌ Manual insulin only |
+| **Food Tracking**    | ✅ Photos & notes      | ✅ Database logging    | ✅ Photos & notes      | ✅ Database logging     | ✅ Meals & notes        | ✅ Photo meals & tagging |
+| **Doctor Sharing**   | ✅ PDF reports         | ✅ Data export          | ✅ Family/doctor sync  | ✅ PDF/XLS reports via emails | ✅ PDF/Excel export, Family & Doctors | ✅ Share via Undermyfork Care link |
+| **CGM/Glucose Device Support** | ✅ Accu-Chek glucometers/pumps, bluetooth (premium) | ✅ Bluetooth (glucose, BP, weight) | ✅ Dexcom + Nightscout | ✅ Bluetooth glucometers/pumps | ✅ Bluetooth (glucose, BP, weight) | ✅ Dexcom + Nightscout |
+| **Trends & Analytics** | ✅ Estimated HbA1c + charts | Medium/basic charts    | ✅ Day by Day, Trends, Blood Sugar Stability, Pods insights (premium) | ✅ Charts, Trends, Summaries | ✅ Charts, Trends, Summaries | ✅ Post-meal Time-in-Range insights |
+| **Community & Support** | Limited gamification  | ❌                     | ✅ “GluCrew” family    | ❌                     | ✅ Partner / Care team  | ✅ Care team view via Care platform |
+| **Reminders & Alerts** | ✅ Meds + glucose     | ✅                      | ✅ Shared alerts       | ✅                      | ✅ Meds & Glucose reminders | ❌ |
+| **Lifestyle Tracking** | ✅ Activity notes     | ✅ Steps & activity     | ✅ Activity logging    | ✅ Activity logging     | ✅ Food, Exercise, Meds, Labs | ✅ Meals, insulin, exercise |
+| **Education Content** | ✅ Diabetes education | ❌ There is, but not worked | ❌                    | ❌                      | ❌                      | ❌ |
+| **User Experience (UX)** | Gamified, friendly   | Simple & basic          | Family-centered, friendly | Simple & basic         | Simple & Family-friendly | Photo-first, visual interface |
 
-#### Functional Colors
-| State    | Color    | Usage                          |
-|----------|----------|--------------------------------|
-| Success  | #16A34A | Task completion, achievements  |
-| Error    | #DC2626 | Input errors, critical alerts  |
-| Warning  | #F59E0B | Near-threshold sugar, reminders|
-| Info     | #3B82F6 | Education cards, alerts        |
-| Disabled | #9CA3AF | Inactive elements              |
-| Highlight| #FDE68A | Important text/callouts        |
+## Tech Solutions
+Diabuddy draws from established tech for diabetes and blood pressure management:
 
-#### Accent Colors
-| Accent   | Color    | Use                            |
-|----------|----------|--------------------------------|
-| Teal500  | #14B8A6 | Graphs, stats indicators       |
-| Orange400| #FB923C | Meal visuals, progress meters  |
-| Purple500| #8B5CF6 | Challenges, gamification       |
-| Pink400  | #F472B6 | Social posts, messages         |
-| Cyan300  | #5EEAD4 | Tooltips, hovers               |
-| Yellow400| #FACC15 | Warnings, motivational badges  |
+### Diabetes Solutions
+- **Continuous Glucose Monitoring (CGM)**: Patch sensor for 24/7 glucose tracking with alerts; best for all users (reduces fingersticks).
+- **Insulin Pump**: Device for steady insulin delivery; ideal for multi-injection users.
+- **Automated Insulin Delivery (AID)**: CGM + pump + AI for auto-adjustments; "artificial pancreas" for Type 1.
+- **Smart Insulin Pen**: Bluetooth pen for dose logging/reminders; entry-level for injection users.
 
-### Typography
-**Font Family:** Montserrat (Primary) | Tajawal (Arabic).
-
-| Style          | Size | Weight    | Letter Spacing | Case        | UI Placement                  |
-|----------------|------|-----------|----------------|-------------|-------------------------------|
-| Display/XL     | 48   | Bold      | -0.5%          | Title       | Onboarding titles             |
-| Display/LG     | 40   | Semi-Bold | -0.3%          | Title       | Dashboard headers             |
-| Heading/H1     | 32   | Semi-Bold | -0.2%          | Sentence    | Page titles (e.g., "My Analytics") |
-| Heading/H2     | 24   | Semi-Bold | -0.1%          | Sentence    | Section headers               |
-| Heading/H3     | 20   | Medium    | 0%             | Sentence    | Cards, tabs                   |
-| Subtitle/Medium| 18   | Medium    | 0%             | Sentence    | Subsections, tooltips         |
-| Body/Large     | 16   | Regular   | 0%             | Sentence    | Forms, descriptions           |
-| Body/Small     | 14   | Regular   | 0%             | Sentence    | Secondary info                |
-| Caption        | 12   | Regular   | 0.5%           | Uppercase   | Helper text, footnotes        |
-| Label/Medium   | 14   | Semi-Bold | 1%             | Uppercase   | Form labels, stats            |
-| Label/Small    | 12   | Semi-Bold | 1%             | Uppercase   | Units, chart labels           |
-| Button/Text    | 16   | Bold      | 1.5%           | Uppercase   | Buttons, CTAs                 |
-
-*Notes:*
-- Minimum body size: 16px for readability.
-- Arabic/English hierarchy consistent.
-- Letter spacing: Slight negative for headers, positive for buttons/labels.
-- WCAG 2.1 AA compliant contrast ratios.
-
-### Layout, Grid & Spacing
-#### Grid System
-| Device         | Columns | Gutter | Margin     | Safe Space              |
-|----------------|---------|--------|------------|-------------------------|
-| iPhone 16 Pro Max | 4    | 16px  | 24px      | Top 44px - Bottom 34px |
-| Tablet         | 8       | 24px  | 32px      | -                       |
-| Web            | 12      | 32px  | 64px      | -                       |
-
-*Extra:* Nested grids for cards in dashboards/modals.
-
-#### Radius & Shadows
-*Radius:* 16px for rounded corners.
-
-| Shadows  | X    | Y    | Blur  | Spread | Color   | Opacity | Usage                  |
-|----------|------|------|-------|--------|---------|---------|------------------------|
-| Elevation 1 | 0px | 1px | 3px  | 0px   | #000000| 12%    | Inputs, small buttons |
-| Elevation 2 | 0px | 4px | 8px  | 0px   | #000000| 15%    | Cards, panels         |
-| Elevation 3 | 0px | 8px | 16px | 0px   | #000000| 20%    | Floating buttons, modals |
-
-## Getting Started
-
-### Prerequisites / System Requirements
-- **Hardware:** Any modern device with internet (mobile/desktop for viewing prototypes).
-- **Software Dependencies:**
-  - Figma
-
-### Installation Steps
-1. **Clone the Repository:**
-   ```
-   git clone https://github.com/pentaRae/DiaBuddy.git
-   cd DiaBuddy
-   ```
-
-2. **Access Figma Prototype:**
-   - Open [Figma Prototype Link](https://www.figma.com/proto/xxxxxx/diabuddy-prototype) (duplicate to your account for editing).
-   - Import the Design System file: [Design System Figma](https://www.figma.com/file/yyyyyy/diabuddy-design-system).
-
-
-### Configuration Instructions
-- **Figma Setup:** 
-  - Install Montserrat and Tajawal fonts via Figma's font manager.
-  - Apply Design System variables (colors, typography) to new components.
-- **Bilingual Testing:** Toggle language in prototype settings (English/Arabic layers).
-- **Customization:** Edit colors in Figma variables; ensure WCAG compliance via plugin (e.g., Stark).
-
-- **Deployed Version:**
-  - Prototype: Click through Figma link for interactive demo (onboarding, logging flows).
-- **Demo Video:** Watch [2-min Prototype Walkthrough](https://vimeo.com/xxxxxx/diabuddy-demo) (optional).
+### Blood Pressure Solutions
+- **Arm Blood Pressure Cuff**: Most accurate home monitor.
+- **Wrist Blood Pressure Monitor**: Portable but less precise.
+- **Smartwatch with Cuff**: Wearable for anytime checks.
+- **Cuffless Wristband**: Sensor-based continuous tracking (e.g., Aktiia).
+- **Smartphone BP Monitors**: Experimental camera/sensor estimation.
 
 ## Team
-**pentaRae Team:**
+**DIABUDDY Team:**
 - Ahmed Mohamed Eid
 - Anas Mohamed
 - Rawan Hany
@@ -161,4 +116,8 @@ The DiaBuddy Design System ensures consistency across all UI elements. It's docu
 **Instructor:** Badr Sayed
 
 ## Testing
-- AB Testing was conducted
+- A/B Testing was conducted using a LinkedIn post to gauge user interest in Diabuddy features, comparing engagement on educational content vs. tracking tools, resulting in 15% higher interaction for reminders and community features among 250 views.
+
+---
+
+*Built with ❤️ by DIABUDDY Team. For questions, contact instructor Badr Sayed.*
