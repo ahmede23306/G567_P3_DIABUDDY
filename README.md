@@ -17,7 +17,6 @@ A comprehensive mobile application for diabetes management, awareness, and commu
 - [Key Features](#key-features)
 - [Survey Insights](#survey-insights)
 - [Competitive Analysis](#competitive-analysis)
-- [Tech Solutions](#tech-solutions)
 - [Team](#team)
 - [Testing](#testing)
 - [License](#license)
@@ -86,22 +85,6 @@ The bilingual survey of 109 respondents provided key data to inform Diabuddy's d
 | **Lifestyle Tracking** | ✅ Activity notes     | ✅ Steps & activity     | ✅ Activity logging    | ✅ Activity logging     | ✅ Food, Exercise, Meds, Labs | ✅ Meals, insulin, exercise |
 | **Education Content** | ✅ Diabetes education | ❌ There is, but not worked | ❌                    | ❌                      | ❌                      | ❌ |
 | **User Experience (UX)** | Gamified, friendly   | Simple & basic          | Family-centered, friendly | Simple & basic         | Simple & Family-friendly | Photo-first, visual interface |
-
-## Tech Solutions
-Diabuddy draws from established tech for diabetes and blood pressure management:
-
-### Diabetes Solutions
-- **Continuous Glucose Monitoring (CGM)**: Patch sensor for 24/7 glucose tracking with alerts; best for all users (reduces fingersticks).
-- **Insulin Pump**: Device for steady insulin delivery; ideal for multi-injection users.
-- **Automated Insulin Delivery (AID)**: CGM + pump + AI for auto-adjustments; "artificial pancreas" for Type 1.
-- **Smart Insulin Pen**: Bluetooth pen for dose logging/reminders; entry-level for injection users.
-
-### Blood Pressure Solutions
-- **Arm Blood Pressure Cuff**: Most accurate home monitor.
-- **Wrist Blood Pressure Monitor**: Portable but less precise.
-- **Smartwatch with Cuff**: Wearable for anytime checks.
-- **Cuffless Wristband**: Sensor-based continuous tracking (e.g., Aktiia).
-- **Smartphone BP Monitors**: Experimental camera/sensor estimation.
 
 ## Team
 **DIABUDDY Team:**
