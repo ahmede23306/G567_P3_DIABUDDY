@@ -147,6 +147,9 @@ This analysis refines Diabuddy's roadmap, ensuring features like chatbots, recip
 **Instructor:** Badr Sayed
 ## Testing
 - A/B Testing was conducted using a LinkedIn post to gauge user interest in Diabuddy features, comparing engagement on educational content vs. tracking tools, resulting in 15% higher interaction for reminders and community features among 250 views.
-![AB](115.png)
+![AB](115.png)\
+## Important links
+- Documentation_Google_Drive(https://drive.google.com/drive/u/1/folders/179ExmDVRw4b1AD4dzPlntjhCDg09ccXS)
+- Prototype(https://www.figma.com/proto/2KXd0fJ0iCNieScIXcwzPs/G567_P1?page-id=181%3A2&node-id=271-16218&p=f&viewport=345%2C204%2C0.04&t=wDKSHFik4iJy8KUa-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=271%3A16369)
 ---
 *Built with ❤️ by DIABUDDY Team. For questions, contact instructor Badr Sayed.*
