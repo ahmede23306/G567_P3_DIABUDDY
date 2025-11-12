@@ -1,5 +1,5 @@
 # Diabuddy
-![Diabuddy Cover](Cover.png)
+![Diabuddy Cover](Cover.jpg)
 A comprehensive mobile application for diabetes management, awareness, and community support. Diabuddy empowers users with Type 1 or Type 2 diabetes, their families, and the general public through intuitive tracking, educational resources, and social features. Developed as part of a UX research project, it addresses real-world challenges identified from patient experiences and surveys.
 ## Table of Contents
 - [Overview](#overview)
@@ -147,7 +147,7 @@ This analysis refines Diabuddy's roadmap, ensuring features like chatbots, recip
 **Instructor:** Badr Sayed
 ## Testing
 - A/B Testing was conducted using a LinkedIn post to gauge user interest in Diabuddy features, comparing engagement on educational content vs. tracking tools, resulting in 15% higher interaction for reminders and community features among 250 views.
-![AB](115.png)\
+![AB](115.jpg)\
 ## Important links
 - Documentation_Google_Drive(https://drive.google.com/drive/u/1/folders/179ExmDVRw4b1AD4dzPlntjhCDg09ccXS)
 - Prototype(https://www.figma.com/proto/2KXd0fJ0iCNieScIXcwzPs/G567_P1?page-id=181%3A2&node-id=271-16218&p=f&viewport=345%2C204%2C0.04&t=wDKSHFik4iJy8KUa-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=271%3A16369)
