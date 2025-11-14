@@ -1,18 +1,7 @@
-Source File: https://drive.google.com/file/d/1LNCehimtJRbJ6U5WOTYZXng01wQGkacW/view?usp=sharing
 # Diabuddy
 ![Diabuddy Cover](1.jpg)
 A comprehensive mobile application for diabetes management, awareness, and community support. Diabuddy empowers users with Type 1 or Type 2 diabetes, their families, and the general public through intuitive tracking, educational resources, and social features. Developed as part of a UX research project, it addresses real-world challenges identified from patient experiences and surveys.
 ## Table of Contents
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Project Solution](#project-solution)
-- [Project Objectives](#project-objectives)
-- [Key Features](#key-features)
-- [Survey Insights](#survey-insights)
-- [Competitive Analysis](#competitive-analysis)
-- [Team](#team)
-- [Testing](#testing)
-- [License](#license)
 ## Overview
 Diabuddy is a mobile app designed for diabetes management, awareness, and community support, targeting diabetics (22 survey respondents), their families/friends (~70), and the general public (~17). Built from a bilingual survey of 109 participants (55% female, mostly urban, aged 10–60+), patient research, and analysis of apps like mySugr and Glucose Buddy, it integrates tracking, education, and social features using CGM, smart reminders, and AI nutrition tools. As of November 2025, it’s in the post-research phase, planning a user-friendly interface with future bilingual (English/Arabic) support to improve health outcomes and reduce stigma.
 ## Problem Statement
@@ -150,7 +139,15 @@ This analysis refines Diabuddy's roadmap, ensuring features like chatbots, recip
 - A/B Testing was conducted using a LinkedIn post to gauge user interest in Diabuddy features, comparing engagement on educational content vs. tracking tools, resulting in 15% higher interaction for reminders and community features among 250 views.
 ![AB](115.jpg)\
 ## Important links
-- Documentation_Google_Drive(https://drive.google.com/drive/u/1/folders/179ExmDVRw4b1AD4dzPlntjhCDg09ccXS)
-- Prototype(https://www.figma.com/proto/2KXd0fJ0iCNieScIXcwzPs/G567_P1?page-id=181%3A2&node-id=271-16218&p=f&viewport=345%2C204%2C0.04&t=wDKSHFik4iJy8KUa-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=271%3A16369)
+Source file (view only link):
+https://www.figma.com/design/2KXd0fJ0iCNieScIXcwzPs/G567_P1?node-id=271-744&t=ZorbGlc5TRIpHtl6-1
+Prototype link:
+https://www.figma.com/proto/2KXd0fJ0iCNieScIXcwzPs/G567_P1?page-id=181%3A2&node-id=271-16381&p=f&viewport=345%2C204%2C0.04&t=Q2QVARoOC8PTQPun-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=271%3A16369
+GitHub Link:
+https://github.com/ahmede23306/G567_P1_DIABUDDY.git
+Google drive:
+https://drive.google.com/drive/folders/179ExmDVRw4b1AD4dzPlntjhCDg09ccXS?usp=drive_link
+Behance Link:
+https://www.behance.net/gallery/238433709/DIABUDDY-App-Full-UXUI-Case-Study
 ---
 *Built with ❤️ by DIABUDDY Team. For questions, contact instructor Badr Sayed.*
